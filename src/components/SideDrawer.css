@@ -1,0 +1,59 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #4d4d4d;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav span {
+    padding: 10px 10px 10px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f9f9f9;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: -21px;
+    right: 315px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .input {
+    background-color: #f9f9f9;
+    color: black;
+    display: inline-flex;
+    justify-content: center;
+    width: 120px;
+    margin-left: 10%;
+  }
+  .inp{
+    display: inline-flex;
+    justify-content: center;
+    width: 120px;
+    margin-left: 10%;
+  }
+  .name{
+    margin-left: 10%;
+    color: black;    justify-content: center;
+
+  }
+  .age{
+      margin-left: 40%;
+      display: inline-flex;
+      justify-content: center;
+
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

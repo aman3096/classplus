@@ -1,0 +1,10 @@
+.hoverText {
+    margin:30px;
+}
+
+.nameTag {
+    height: 60px;
+    width: 100px;
+    border: none;
+    background-color: #f5f2f2;
+}
